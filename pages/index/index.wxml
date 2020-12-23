@@ -1,0 +1,16 @@
+<!-- snow effect -->
+<view class="snow" wx:for="{{snow}}"></view>
+<!----------------->
+
+<view class="container">
+  <view class="title">{{title}}</view>
+  <view class="subtitle" style="margin: 8rpx 0 48rpx 0">{{subtitle}}</view>
+  
+  <swiper indicator-dots autoplay>
+    <swiper-item wx:for="{{images}}">
+      <image src="{{item}}" mode="aspectFill" class="slide"/>
+    </swiper-item>
+  </swiper>
+
+  <view class="subtitle" style="margin-top: 48rpx">{{note}}</view>
+</view>

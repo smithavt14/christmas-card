@@ -1,0 +1,46 @@
+/* Container Styles */
+.container {
+  padding: 200rpx 40rpx;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: white;
+  
+  /* -- dark background -- */
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+
+  /* -- light background -- */
+  /* background: #FFFAFA; */
+}
+
+/* Text Styles */
+.title {
+  font-size: 36px;
+  font-weight: 900;
+  flex-shrink: 0;
+  /* color: #D6001C; */
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+
+.subtitle {
+  font-size: 16px;
+  flex-shrink: 0;
+  /* color: black; */
+}
+
+/* Swiper Style Code */
+swiper {
+  width: 100%;
+  flex-grow: 1;
+  box-shadow: 8px 8px 16px rgba(0,0,0,0.5);
+  border-radius: 4px;
+}
+
+.slide {
+  height: 100%;
+  width: 100%;
+  border-radius: 4px;
+}
